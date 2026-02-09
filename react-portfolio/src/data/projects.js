@@ -1,21 +1,21 @@
 export const projects = [
     {
         id: 1,
-        title: "ShoeShop",
-        tech: ["ReactJS", "API GHTK", "Back-end Logic", "Coupon System"],
-        description: "E-commerce Platform với hệ thống mã giảm giá và tính phí vận chuyển tự động.",
+        title: "E-Commerce Sales Analytics",
+        tech: ["SQL", "Python", "Power BI", "Statistical Analysis"],
+        description: "Dashboard phân tích bán hàng với dự báo xu hướng, phân tích RFM khách hàng, và tối ưu hóa giảm giá.",
         github: "https://github.com/LeThanhNhan1210",
         demo: "#",
-        image: "/src/assets/images/ShoeShop.png"
+        image: "/ShoeShop.png"
     },
     {
         id: 2,
-        title: "ChayRestaurant",
-        tech: ["C#", "MVC", "SQL Server", "AJAX", "Live Search"],
-        description: "Hệ thống quản lý nhà hàng toàn diện (Kho, Sản phẩm, Hóa đơn).",
+        title: "Restaurant Operations BI",
+        tech: ["Tableau", "Excel", "SQL", "Data Modeling"],
+        description: "Hệ thống BI quản lý nhà hàng: tối ưu kho hàng, phân tích doanh số, và dự báo nhu cầu sản phẩm.",
         github: "https://github.com/LeThanhNhan1210",
         demo: "#",
-        image: "/src/assets/images/ChayRestaurant.png"
+        image: "/ChayRestaurant.png"
     }
 ];
 

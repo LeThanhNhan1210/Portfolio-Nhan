@@ -2,36 +2,36 @@ export const homeData = {
     services: [
         {
             id: 1,
-            title: "Phát triển Frontend",
-            description: "Xây dựng giao diện người dùng hiện đại, hiệu năng cao với React.js và hệ sinh thái liên quan.",
-            icon: "💻"
+            title: "Phân tích và Visualization",
+            description: "Khai phá insights từ dữ liệu lớn, tạo dashboard tương tác với Power BI/Tableau để hỗ trợ quyết định.",
+            icon: "📊"
         },
         {
             id: 2,
-            title: "Giải pháp IoT",
-            description: "Tích hợp phần cứng và phần mềm, giám sát dữ liệu thời gian thực qua các giao thức IoT.",
-            icon: "🌐"
+            title: "Business Intelligence",
+            description: "Xây dựng hệ thống BI enterprise, thiết kế data warehouse, và tối ưu hóa ETL pipelines.",
+            icon: "🎯"
         },
         {
             id: 3,
-            title: "Phân tích Nghiệp vụ (BA)",
-            description: "Phân tích yêu cầu, tối ưu hóa quy trình và đưa ra các giải pháp công nghệ phù hợp.",
-            icon: "📊"
+            title: "Data-Driven Strategy",
+            description: "Phân tích thống kê chuyên sâu, A/B testing, và đề xuất chiến lược dựa trên dữ liệu cho tăng trưởng.",
+            icon: "💡"
         }
     ],
     testimonials: [
         {
             id: 1,
             name: "Nguyễn Văn A",
-            role: "Giám đốc Dự án",
-            content: "Một lập trình viên trẻ đầy tiềm năng, làm việc có trách nhiệm và luôn tìm tòi giải pháp mới.",
+            role: "Business Director",
+            content: "Một nhà phân tích dữ liệu tài năng, có khả năng biến số liệu thô thành các insight hữu ích cho kinh doanh.",
             avatar: "https://i.pravatar.cc/150?u=a"
         },
         {
             id: 2,
             name: "Trần Thị B",
-            role: "Product Owner",
-            content: "Khả năng nắm bắt yêu cầu nghiệp vụ rất nhanh, sản phẩm hoàn thiện có chất lượng cao.",
+            role: "Marketing Manager",
+            content: "Phân tích chiến dịch marketing của chúng tôi rất chi tiết, giúp tôi tối ưu hóa chi phí quảng cáo hiệu quả.",
             avatar: "https://i.pravatar.cc/150?u=b"
         }
     ]
