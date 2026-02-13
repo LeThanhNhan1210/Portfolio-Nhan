@@ -10,7 +10,7 @@ import "./styles/global.css";
 
 function App() {
   return (
-    <BrowserRouter basename="/Portfolio-Nhan">
+    <BrowserRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

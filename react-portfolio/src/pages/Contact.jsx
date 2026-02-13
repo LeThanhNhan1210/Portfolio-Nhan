@@ -19,7 +19,7 @@ function Contact() {
         const TEMPLATE_ID_AUTOREPLY = import.meta.env.VITE_EMAILJS_TEMPLATE_ID_AUTOREPLY;
         const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
-        if (SERVICE_ID.startsWith('YOUR_') || TEMPLATE_ID_ADMIN.startsWith('YOUR_') || PUBLIC_KEY.startsWith('YOUR_')) {
+        if (SERVICE_ID?.startsWith('YOUR_') || TEMPLATE_ID_ADMIN?.startsWith('YOUR_') || PUBLIC_KEY?.startsWith('YOUR_')) {
             setStatus({
                 type: 'error',
                 message: 'Vui lòng hoàn tất cấu hình SERVICE_ID, TEMPLATE_ID và PUBLIC_KEY trong code trước khi gửi.'
