@@ -6,7 +6,7 @@ export const projects = [
         description: "Dashboard phân tích bán hàng với dự báo xu hướng, phân tích RFM khách hàng, và tối ưu hóa giảm giá.",
         github: "https://github.com/LeThanhNhan1210",
         demo: "#",
-        image: "/ShoeShop.png"
+        image: "/Portfolio-Nhan/ShoeShop.png"
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export const projects = [
         description: "Hệ thống BI quản lý nhà hàng: tối ưu kho hàng, phân tích doanh số, và dự báo nhu cầu sản phẩm.",
         github: "https://github.com/LeThanhNhan1210",
         demo: "#",
-        image: "/ChayRestaurant.png"
+        image: "/Portfolio-Nhan/ChayRestaurant.png"
     }
 ];
 

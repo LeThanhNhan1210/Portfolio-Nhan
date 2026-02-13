@@ -11,6 +11,6 @@ export const personalInfo = {
     address: "Huyện Bình Chánh, Thành phố Hồ Chí Minh",
     dob: "12/10/2004",
     gender: "Nam",
-    avatar: "/avartar.png"
+    avatar: "/Portfolio-Nhan/avartar.png"
 };
 
