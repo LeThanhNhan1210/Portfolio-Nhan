@@ -3,9 +3,9 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/Portfolio-Nhan/',
+  base: '/',
   plugins: [react()],
   build: {
-    outDir: 'docs'
+    outDir: 'dist'
   }
 })

@@ -14,10 +14,10 @@ function Contact() {
         setIsSending(true);
         setStatus({ type: '', message: '' });
 
-        const SERVICE_ID = 'service_km0xqfb';
-        const TEMPLATE_ID_ADMIN = 'template_wvkt8dd';
-        const TEMPLATE_ID_AUTOREPLY = 'template_2aqfioa';
-        const PUBLIC_KEY = 'AavL0EmPFUV1sdxMc';
+        const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+        const TEMPLATE_ID_ADMIN = import.meta.env.VITE_EMAILJS_TEMPLATE_ID_ADMIN;
+        const TEMPLATE_ID_AUTOREPLY = import.meta.env.VITE_EMAILJS_TEMPLATE_ID_AUTOREPLY;
+        const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
         if (SERVICE_ID.startsWith('YOUR_') || TEMPLATE_ID_ADMIN.startsWith('YOUR_') || PUBLIC_KEY.startsWith('YOUR_')) {
             setStatus({
